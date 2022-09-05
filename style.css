@@ -4,8 +4,31 @@
 }
 
 body{
-    background: url(./image2.jpg);
+    /* background: url(./image2.jpg); */
     background-size: cover;
     background-attachment: fixed;
     position: absolute;
 }
+
+#forcastMainSlider{
+    display: flex;
+    border: 5px solid black;
+    overflow-x: scroll;
+}
+
+#forcastMainSlider>:first-child{
+    background-color: aqua;
+}
+
+.forcastDiv{
+    width: 200px;
+    margin: 0 20px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+#icon>img{
+    width: 100px;
+}
+
